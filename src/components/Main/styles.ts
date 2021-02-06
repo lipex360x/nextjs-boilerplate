@@ -1,0 +1,36 @@
+import styled from 'styled-components'
+// import media from 'styled-media-query';
+
+export const Container = styled.main`
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: #06092b;
+  color: #fff;
+
+  padding: 3rem;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+`
+
+export const Logo = styled.img`
+  width: 25rem;
+  margin-bottom: 2rem;
+`
+
+export const Title = styled.h1`
+  font-size: 2.5rem;
+`
+
+export const Description = styled.h2`
+  font-size: 2rem;
+  font-weight: 200;
+`
+
+export const Illustrator = styled.img`
+  margin-top: 3rem;
+  width: min(30rem, 100%);
+`
