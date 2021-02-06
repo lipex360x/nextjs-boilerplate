@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Main /> shuold be able to 1`] = `
+<div>
+  <h1>
+    React Avançado
+  </h1>
+</div>
+`;
