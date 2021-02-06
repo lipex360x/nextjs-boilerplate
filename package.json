@@ -8,7 +8,9 @@
     "test": "jest --passWithNoTests --silent --noStackTrace --bail ",
     "test:c": "jest --clearCache",
     "test:w": "yarn test --watch",
-    "start": "next start"
+    "start": "next start",
+    "str": "start-storybook -s ./public -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "next": "10.0.6",
@@ -19,6 +21,11 @@
   "devDependencies": {
     "@babel/core": "^7.12.13",
     "@babel/preset-typescript": "^7.12.13",
+    "@storybook/addon-actions": "^6.1.17",
+    "@storybook/addon-essentials": "^6.1.17",
+    "@storybook/addon-knobs": "^6.1.17",
+    "@storybook/addon-links": "^6.1.17",
+    "@storybook/react": "^6.1.17",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.20",

@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export default createGlobalStyle`
   :root {
-    font-size: 62,5%;
+    font-size: 62.5%;
     --color-background: #F0F0F7;
 
     --color-white: #f0f0f0;
@@ -28,7 +28,7 @@ export default createGlobalStyle`
   }
 
   html, body, #__next {
-    height: 100vh
+    height: 100vh;
   }
 
 
