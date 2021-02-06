@@ -2,6 +2,12 @@
 
 exports[`<Main /> should render the heading 1`] = `
 .c0 {
+  background-color: #06092b;
+  color: #fff;
+  width: 100%;
+  height: 100%;
+  padding: 3rem;
+  text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -9,20 +15,14 @@ exports[`<Main /> should render the heading 1`] = `
   -webkit-flex-direction: column;
   -ms-flex-direction: column;
   flex-direction: column;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  background-color: #06092b;
-  color: #fff;
-  padding: 3rem;
-  width: 100%;
-  height: 100%;
-  text-align: center;
   -webkit-align-items: center;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
 }
 
 .c1 {
@@ -36,7 +36,7 @@ exports[`<Main /> should render the heading 1`] = `
 
 .c3 {
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 
 .c4 {
@@ -48,7 +48,7 @@ exports[`<Main /> should render the heading 1`] = `
   class="c0"
 >
   <img
-    alt="Imagem de um átomo e React Avançado escrito ao lado"
+    alt="Imagem de um átomo e React Avançado escrito ao lado."
     class="c1"
     src="/img/logo.svg"
   />
@@ -63,9 +63,9 @@ exports[`<Main /> should render the heading 1`] = `
     TypeScript, ReactJS, NextJS e Styled Components
   </h2>
   <img
-    alt="Um desenvolvedor em frente a uma tela com código"
+    alt="Um desenvolvedor de frente para uma tela com código."
     class="c4"
     src="/img/hero-illustration.svg"
   />
 </main>
-`;
+`

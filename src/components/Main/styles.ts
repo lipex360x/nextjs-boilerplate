@@ -1,19 +1,16 @@
 import styled from 'styled-components'
-// import media from 'styled-media-query';
 
-export const Container = styled.main`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
+export const Wrapper = styled.main`
   background-color: #06092b;
   color: #fff;
-
-  padding: 3rem;
   width: 100%;
   height: 100%;
+  padding: 3rem;
   text-align: center;
+  display: flex;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
 `
 
 export const Logo = styled.img`
@@ -27,10 +24,10 @@ export const Title = styled.h1`
 
 export const Description = styled.h2`
   font-size: 2rem;
-  font-weight: 200;
+  font-weight: 400;
 `
 
-export const Illustrator = styled.img`
+export const Illustration = styled.img`
   margin-top: 3rem;
   width: min(30rem, 100%);
 `
