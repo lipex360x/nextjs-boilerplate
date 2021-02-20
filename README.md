@@ -51,9 +51,12 @@ Check more details of this project in the back-end folder
 ### :zap: Technologies
 
 ```json
- ReactJS
+ NextJS
  Styled Components
+ Jest
  Axios
+ PlopJS
+ StoryBook
 ```
 
 ---
