@@ -3,7 +3,7 @@
 
 ---
 
-![Image](https://github.com/lipex360x/nextjs-boilerplate/blob/master/assets/screen.png)
+![Image](https://github.com/lipex360x/nextjs-boilerplate/blob/main/assets/screen.png)
 
 ---
 
