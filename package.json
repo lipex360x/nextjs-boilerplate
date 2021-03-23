@@ -14,7 +14,7 @@
     "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001203",
+    "caniuse-lite": "^1.0.30001204",
     "next": "10.0.9",
     "next-pwa": "^5.0.5",
     "react": "17.0.2",
