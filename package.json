@@ -14,11 +14,11 @@
     "build-storybook": "build-storybook -s ./public"
   },
   "dependencies": {
-    "caniuse-lite": "^1.0.30001203",
+    "caniuse-lite": "^1.0.30001204",
     "next": "10.0.9",
     "next-pwa": "^5.0.5",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "styled-components": "5.2.1"
   },
   "devDependencies": {
@@ -33,7 +33,7 @@
     "@types/react": "^17.0.1",
     "@types/styled-components": "^5.1.9",
     "@typescript-eslint/eslint-plugin": "^4.19.0",
-    "@typescript-eslint/parser": "^4.18.0",
+    "@typescript-eslint/parser": "^4.19.0",
     "babel-loader": "^8.2.2",
     "babel-plugin-styled-components": "^1.12.0",
     "eslint": "^7.22.0",
@@ -41,7 +41,7 @@
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
     "eslint-plugin-promise": "^4.3.1",
-    "eslint-plugin-react": "^7.22.0",
+    "eslint-plugin-react": "^7.23.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "jest": "^26.6.3",
     "jest-styled-components": "^7.0.3",
