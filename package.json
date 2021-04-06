@@ -15,7 +15,7 @@
   },
   "dependencies": {
     "caniuse-lite": "^1.0.30001204",
-    "next": "10.0.9",
+    "next": "10.1.3",
     "next-pwa": "^5.0.5",
     "react": "17.0.2",
     "react-dom": "17.0.2",
@@ -25,7 +25,7 @@
     "@babel/core": "^7.13.14",
     "@babel/preset-typescript": "^7.13.0",
     "@storybook/addon-essentials": "6.1.21",
-    "@storybook/react": "6.1.21",
+    "@storybook/react": "6.2.2",
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@types/jest": "^26.0.21",
