@@ -1,7 +1,7 @@
 {
-  "extends": "next/core-web-vitals",
-
+  "extends": "@rocketseat/eslint-config/react",
   "rules": {
-    "import/no-anonymous-default-export": "off"
+    "no-undef": "off",
+    "prettier/prettier": "off"
   }
 }

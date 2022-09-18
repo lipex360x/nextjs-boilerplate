@@ -34,5 +34,16 @@
       "  );",
       "};"
     ]
+  },
+
+  "Store Function": {
+    "prefix": "storeFunction()",
+    "body": [
+      "${FUNCTION_NAME}: () => set((state) =>",
+      "  produce(state, (draft) => {",
+      "    // to-do",
+      "  })",
+      "),"
+    ]
   }
 }

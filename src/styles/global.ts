@@ -8,7 +8,7 @@ const GlobalStyles = createGlobalStyle`
       box-sizing: border-box;
       -webkit-font-smoothing: antialiased;
       -moz-osx-font-smoothing: grayscale;
-      
+
       &::before,
       &::after {
         box-sizing: inherit;
@@ -29,10 +29,9 @@ const GlobalStyles = createGlobalStyle`
     input,
     textarea,
     button {
-      font: 
-        ${theme.font.normal}      // weight
+      font: ${theme.font.normal} // weight
         ${theme.font.size.medium} // size
-        ${theme.font.family};     // family
+        ${theme.font.family}; // family
     }
 
     html {
@@ -46,8 +45,8 @@ const GlobalStyles = createGlobalStyle`
     body {
       font-family: 'Roboto';
       font-size: ${theme.font.size.medium};
-      color: ${theme.color.black}
-    }    
+      color: ${theme.color.black};
+    }
   `}
 `
 

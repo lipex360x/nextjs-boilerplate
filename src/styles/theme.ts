@@ -1,7 +1,7 @@
 export default {
   grid: {
     container: '130rem',
-    gutter: '3.2rem'
+    gutter: '3.2rem',
   },
 
   color: {
@@ -17,11 +17,12 @@ export default {
     gray100: '#e1e1e6',
 
     green500: '#00875f',
-    green300: '#00b37e'
+    green300: '#00b37e',
   },
 
   font: {
-    family: "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
+    family:
+      "Roboto, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif",
 
     light: 300,
     normal: 400,
@@ -34,8 +35,8 @@ export default {
       large: '1.8rem',
       xlarge: '2.0rem',
       xxlarge: '2.8rem',
-      huge: '5.2rem'
-    }
+      huge: '5.2rem',
+    },
   },
 
   spacings: {
@@ -45,7 +46,7 @@ export default {
     medium: '3.2rem',
     large: '4.0rem',
     xlarge: '4.8rem',
-    xxlarge: '5.6rem'
+    xxlarge: '5.6rem',
   },
 
   layers: {
@@ -53,11 +54,11 @@ export default {
     menu: 20,
     overlay: 30,
     modal: 40,
-    alwaysOnTop: 50
+    alwaysOnTop: 50,
   },
 
   transition: {
     default: '0.3s ease-in-out',
-    fast: '0.1s ease-in-out'
-  }
+    fast: '0.1s ease-in-out',
+  },
 } as const

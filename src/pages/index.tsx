@@ -1,9 +1,7 @@
-import { HomePage } from "@/components/organisms/HomePage"
+import { HomePage } from '@/components/organisms/HomePage'
 
 const Home = () => {
-  return (
-    <HomePage />
-  )
+  return <HomePage />
 }
 
 export default Home

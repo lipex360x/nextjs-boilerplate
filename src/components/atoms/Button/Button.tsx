@@ -1,4 +1,4 @@
-import React, { ButtonHTMLAttributes } from 'react'
+import { ButtonHTMLAttributes, ForwardRefRenderFunction } from 'react'
 
 import * as S from './styles'
 
@@ -12,7 +12,7 @@ export type ButtonProps = {
   iconPosition?: 'left' | 'right'
 } & ButtonsTypes
 
-export const Button: React.ForwardRefRenderFunction<
+export const Button: ForwardRefRenderFunction<
   S.WrapperProps,
   ButtonProps
 > = ({

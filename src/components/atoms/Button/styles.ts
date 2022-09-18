@@ -1,9 +1,9 @@
-import styled, { css, DefaultTheme } from 'styled-components'
-import { ButtonProps } from './Button'
+import styled, { css, DefaultTheme } from "styled-components"
+import { ButtonProps } from "./Button"
 
 export type WrapperProps = {
-  hasIcon: boolean
-} & ButtonProps
+  hasIcon: boolean;
+} & ButtonProps;
 
 const sizes = {
   small: () => css`
@@ -22,7 +22,7 @@ const sizes = {
     flex: 1;
     text-align: center;
   `,
-}
+};
 
 const variants = {
   default: (theme: DefaultTheme) => css`
@@ -36,22 +36,21 @@ const variants = {
     background: none;
     color: ${theme.color.gray300};
     border: 2px solid ${theme.color.gray800};
-    transition: background, color ${theme.transition.fast}; */
-
-    &:not(:disabled):hover{
+    transition: background, color ${theme.transition.fast};
+    &:not(:disabled):hover {
       color: ${theme.color.white};
       background: ${theme.color.gray800};
     }
   `,
 
-  withIcon: (theme: DefaultTheme, position: 'left' | 'right') => css`
+  withIcon: (theme: DefaultTheme, position: "left" | "right") => css`
     span {
       display: inline-block;
-      margin-left: ${position === 'left' && theme.spacings.xxsmall};
-      margin-right: ${position === 'right' && theme.spacings.xxsmall};
+      margin-left: ${position === "left" && theme.spacings.xxsmall};
+      margin-right: ${position === "right" && theme.spacings.xxsmall};
     }
   `,
-}
+};
 
 export const ButtonBase = styled.button`
   ${({ theme }) => css`
@@ -61,20 +60,13 @@ export const ButtonBase = styled.button`
 
     color: ${theme.color.black};
   `}
-`
+`;
 
 export const Wrapper = styled(ButtonBase) <WrapperProps>`
-  ${({
-  theme,
-  size,
-  fullWidth,
-  hasIcon,
-  iconPosition,
-  variant
-}) => css`
+  ${({ theme, size, fullWidth, hasIcon, iconPosition, variant }) => css`
     ${!!size && sizes[size]}
     ${!!fullWidth && sizes.fullWidth}
     ${!!variant && variants[variant](theme)}
     ${!!hasIcon && !!iconPosition && variants.withIcon(theme, iconPosition)}
   `}
-`
+`;
