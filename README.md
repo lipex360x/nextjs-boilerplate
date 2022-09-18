@@ -21,7 +21,7 @@
 
 - [Technologies](#zap-technologies)
 
-- [Live Preview](https://remarkable-fudge-bb1f91.netlify.app/)
+- [Live Preview](https://next-gen-boilerplate.netlify.app/)
 
 ---
 
