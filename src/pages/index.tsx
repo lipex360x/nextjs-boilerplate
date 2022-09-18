@@ -1,8 +1,8 @@
+import { HomePage } from "@/components/organisms/HomePage"
+
 const Home = () => {
   return (
-    <div>
-      <h1>Hello Next</h1>
-    </div>
+    <HomePage />
   )
 }
 

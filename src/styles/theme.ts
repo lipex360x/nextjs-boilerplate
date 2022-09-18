@@ -8,6 +8,8 @@ export default {
     white: '#f5f5f5',
     black: '#1d1d1b',
 
+    danger: '#E25858',
+
     gray900: '#121214',
     gray800: '#202024',
     gray400: '#8D8D99',
