@@ -11,13 +11,17 @@
     "import-helpers/order-imports": ["error", {
       "newlinesBetween": "never",
       "groups": [
-        "/^react/",
+        "absolute",
         "module",
+        "/^react/",
         "/^@/components/",
+        "/^@/constants/",
         "/^@/services/",
-        "/^@/store/"
-      ]
-      // "alphabetize": { "order": "asc", "ignoreCase": true }
+        "/^@/store/",
+        "/^@/styles/",
+        "index"
+      ],
+      "alphabetize": { "order": "asc", "ignoreCase": true }
     }]
 
   }
