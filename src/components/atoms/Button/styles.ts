@@ -1,4 +1,4 @@
-import styled, { css, DefaultTheme } from "styled-components"
+import styled, { css, DefaultTheme } from 'styled-components'
 import { ButtonProps } from './Button'
 
 export type WrapperProps = {
@@ -62,7 +62,7 @@ export const ButtonBase = styled.button`
   `}
 `
 
-export const Wrapper = styled(ButtonBase) <WrapperProps>`
+export const Wrapper = styled(ButtonBase)<WrapperProps>`
   ${({ theme, size, fullWidth, hasIcon, iconPosition, variant }) => css`
     ${!!size && sizes[size]}
     ${!!fullWidth && sizes.fullWidth}
