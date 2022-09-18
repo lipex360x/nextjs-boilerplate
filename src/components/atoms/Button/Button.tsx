@@ -1,5 +1,4 @@
 import { ButtonHTMLAttributes, ForwardRefRenderFunction } from 'react'
-
 import * as S from './styles'
 
 type ButtonsTypes = ButtonHTMLAttributes<HTMLButtonElement>

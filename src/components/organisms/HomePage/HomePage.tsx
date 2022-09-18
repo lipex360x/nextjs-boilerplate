@@ -1,9 +1,9 @@
 import { Button } from '@/components/atoms/Button'
+import { Minus, Plus, ReturnCircled } from '@/components/atoms/Icons'
 import { Logo } from '@/components/atoms/Logo/Logo'
 import toastService from '@/services/toast.service'
-import * as S from './styles'
 import { useZustand } from '@/store/useZustand'
-import { Minus, Plus, ReturnCircled } from '@/components/atoms/Icons'
+import * as S from './styles'
 
 export const HomePage = () => {
   const { count, increment, decrement, reset } = useZustand()
