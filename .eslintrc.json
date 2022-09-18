@@ -1,6 +1,9 @@
 {
   "extends": "@rocketseat/eslint-config/react",
   "rules": {
-    "no-undef": "off"
+    "no-undef": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn",
+    "@typescript-eslint/no-non-null-assertion": "off"
   }
 }
