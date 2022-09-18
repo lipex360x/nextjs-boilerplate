@@ -6,18 +6,22 @@ export default {
 
   color: {
     white: '#f5f5f5',
-    black: '#1d1d1b',
+    black: '#000000',
 
     danger: '#E25858',
+    success: '#46B23C',
+    info: '#47A3FF',
+    warning: '#FCB13A',
 
-    gray900: '#121214',
-    gray800: '#202024',
-    gray400: '#8D8D99',
-    gray300: '#c4c4cc',
-    gray100: '#e1e1e6',
-
-    green500: '#00875f',
-    green300: '#00b37e',
+    gray100: '#f0f0f0',
+    gray200: '#e5e5e5',
+    gray300: '#d5d5d5',
+    gray400: '#b5b5b5',
+    gray500: '#a5a5a5',
+    gray600: '#555555',
+    gray700: '#444444',
+    gray800: '#333333',
+    gray900: '#222222',
   },
 
   font: {

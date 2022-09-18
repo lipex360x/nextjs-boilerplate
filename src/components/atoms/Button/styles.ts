@@ -20,23 +20,25 @@ const sizes = {
 
   fullWidth: () => css`
     flex: 1;
+    grid-column: span 12;
     text-align: center;
   `,
 }
 
 const variants = {
   default: (theme: DefaultTheme) => css`
-    color: ${theme.color.gray800};
-    background: ${theme.color.gray100};
-    border: 0.2rem solid ${theme.color.gray300};
+    color: ${theme.color.gray700};
+    background: ${theme.color.gray200};
+    border: 1px solid ${theme.color.gray300};
     border-radius: 0.6rem;
   `,
 
   minimal: (theme: DefaultTheme) => css`
     background: none;
     color: ${theme.color.gray300};
-    border: 2px solid ${theme.color.gray800};
+    border: 1px solid ${theme.color.gray300};
     transition: background, color ${theme.transition.fast};
+
     &:not(:disabled):hover {
       color: ${theme.color.white};
       background: ${theme.color.gray800};
@@ -57,8 +59,7 @@ export const ButtonBase = styled.button`
     display: inline-flex;
     justify-content: center;
     align-items: center;
-
-    color: ${theme.color.black};
+    color: ${theme.color.gray900};
   `}
 `
 

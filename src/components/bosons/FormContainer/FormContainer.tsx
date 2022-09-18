@@ -2,7 +2,7 @@ import { ReactNode } from 'react'
 import * as S from './styles'
 
 export type FormContainerProps = {
-  children: ReactNode;
+  children: ReactNode
 }
 
 export const FormContainer = ({ children }: FormContainerProps) => {
