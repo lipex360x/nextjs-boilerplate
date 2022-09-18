@@ -16,8 +16,8 @@
         "/^@/components/",
         "/^@/services/",
         "/^@/store/"
-      ],
-      "alphabetize": { "order": "asc", "ignoreCase": true }
+      ]
+      // "alphabetize": { "order": "asc", "ignoreCase": true }
     }]
 
   }

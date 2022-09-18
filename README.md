@@ -43,9 +43,7 @@ This is a boilerplate for React Project using Atomic Design with generator
 
 - Configure **Project Name** in `./package.json`
 
-- Configure **Project Title in** `./index.html`
-
-- Configure **Theme Styles** in `src/styles/constants`
+- Configure **Project Title in** `src/pages/_document.tsx`
 
 - Configure **Global Styles** in `src/styles/global.ts`
 
