@@ -12,10 +12,7 @@ export type ButtonProps = {
   iconPosition?: 'left' | 'right'
 } & ButtonsTypes
 
-export const Button: ForwardRefRenderFunction<
-  S.WrapperProps,
-  ButtonProps
-> = ({
+export const Button: ForwardRefRenderFunction<S.WrapperProps, ButtonProps> = ({
   children,
   fullWidth,
   icon,
@@ -24,16 +21,16 @@ export const Button: ForwardRefRenderFunction<
   size = 'medium',
   ...props
 }: ButtonProps) => (
-    <S.Wrapper
-      variant={variant}
-      size={size}
-      fullWidth={fullWidth}
-      hasIcon={!!icon}
-      iconPosition={iconPosition}
-      {...props}
-    >
-      {!!icon && iconPosition === 'left' && icon}
-      {!!children && <span>{children}</span>}
-      {!!icon && iconPosition === 'right' && icon}
-    </S.Wrapper>
-  )
+  <S.Wrapper
+    variant={variant}
+    size={size}
+    fullWidth={fullWidth}
+    hasIcon={!!icon}
+    iconPosition={iconPosition}
+    {...props}
+  >
+    {!!icon && iconPosition === 'left' && icon}
+    {!!children && <span>{children}</span>}
+    {!!icon && iconPosition === 'right' && icon}
+  </S.Wrapper>
+)

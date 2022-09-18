@@ -1,9 +1,9 @@
 import styled, { css, DefaultTheme } from "styled-components"
-import { ButtonProps } from "./Button"
+import { ButtonProps } from './Button'
 
 export type WrapperProps = {
-  hasIcon: boolean;
-} & ButtonProps;
+  hasIcon: boolean
+} & ButtonProps
 
 const sizes = {
   small: () => css`
@@ -22,7 +22,7 @@ const sizes = {
     flex: 1;
     text-align: center;
   `,
-};
+}
 
 const variants = {
   default: (theme: DefaultTheme) => css`
@@ -43,14 +43,14 @@ const variants = {
     }
   `,
 
-  withIcon: (theme: DefaultTheme, position: "left" | "right") => css`
+  withIcon: (theme: DefaultTheme, position: 'left' | 'right') => css`
     span {
       display: inline-block;
-      margin-left: ${position === "left" && theme.spacings.xxsmall};
-      margin-right: ${position === "right" && theme.spacings.xxsmall};
+      margin-left: ${position === 'left' && theme.spacings.xxsmall};
+      margin-right: ${position === 'right' && theme.spacings.xxsmall};
     }
   `,
-};
+}
 
 export const ButtonBase = styled.button`
   ${({ theme }) => css`
@@ -60,7 +60,7 @@ export const ButtonBase = styled.button`
 
     color: ${theme.color.black};
   `}
-`;
+`
 
 export const Wrapper = styled(ButtonBase) <WrapperProps>`
   ${({ theme, size, fullWidth, hasIcon, iconPosition, variant }) => css`
@@ -69,4 +69,4 @@ export const Wrapper = styled(ButtonBase) <WrapperProps>`
     ${!!variant && variants[variant](theme)}
     ${!!hasIcon && !!iconPosition && variants.withIcon(theme, iconPosition)}
   `}
-`;
+`
