@@ -21,6 +21,8 @@
 
 - [Technologies](#zap-technologies)
 
+- [Live Preview](https://remarkable-fudge-bb1f91.netlify.app/)
+
 ---
 
 #### :zap: Introduction
