@@ -17,14 +17,12 @@ module.exports = {
 
   actions: (data) => {
     const pathTemplate = "./pages/templates";
-    const pagePath = "../src/pages/{{pageName}}Page";
+    const pagePath = "../src/pages/{{pageName}}";
 
     const files = () => {
       const arrayFiles = [];
 
-      arrayFiles.push(pushFiles(pagePath, "index.ts", "index.hbs"));
-      arrayFiles.push(pushFiles(pagePath, "styles.ts", "styles.hbs"));
-      arrayFiles.push(pushFiles(pagePath, "{{pageName}}Page.tsx", "page.hbs"));
+      arrayFiles.push(pushFiles(pagePath, "{{pageName}}.tsx", "page.hbs"));
 
       return arrayFiles;
     };

@@ -41,12 +41,6 @@ const GlobalStyles = createGlobalStyle`
     button {
       cursor: pointer;
     }
-
-    body {
-      font-family: 'Roboto';
-      font-size: ${theme.font.size.medium};
-      color: ${theme.color.black};
-    }
   `}
 `
 

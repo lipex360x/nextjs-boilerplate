@@ -1,9 +1,13 @@
-import * as S from './styles'
+import Head from 'next/head'
 
-export const {{pageName}}Page = () => {
+export default function {{pageName}}() {
   return (
-    <S.Wrapper>
-      <span>Hello {{pageName}}Page</span>
-    </S.Wrapper>
+    <>
+      <Head>
+        <title>{{pageName}}</title>
+      </Head>
+
+      <h1>Hello {{pageName}}</h1>
+    </>
   )
 }
